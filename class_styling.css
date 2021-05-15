@@ -6,7 +6,7 @@ variables
 
 :root {
   --white: hsl(0, 0%, 100%);
-  --white-focus: hsl(0, 0%, 92%);
+  --white-focus: hsl(0, 0%, 96%);
   --gray: hsl(0, 0%, 87%);
   --gray-focus: hsl(0, 0%, 75%);
   --blue: hsl(219, 100%, 56%);
