@@ -484,7 +484,7 @@ button {
 }
 
 .bg-input {
-  background-color: var(--color-bg-gray);
+  background-color: var(--white-focus);
   border: solid 1px transparent;
   transition: var(--transition-fast);
   transition-property: background-color, border;
@@ -492,8 +492,8 @@ button {
 
 .bg-input:focus,
 .bg-input:focus-within {
-  background-color: var(--color-bg-light);
-  border: solid 1px var(--color-t-accent);
+  background-color: var(--white);
+  border: solid 1px var(--blue);
 }
 
 /*overflow*/
