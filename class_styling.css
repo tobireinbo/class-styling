@@ -6,8 +6,8 @@ variables
 
 :root {
   --white: hsl(0, 0%, 100%);
-  --gray: hsl(0, 0%, 95%);
-  --gray-focus: hsl(0, 0%, 85%);
+  --gray: hsl(0, 0%, 85%);
+  --gray-focus: hsl(0, 0%, 75%);
   --blue: hsl(219, 100%, 56%);
   --green: hsl(122, 98%, 40%);
   --size-1: 8px;
@@ -435,7 +435,10 @@ button {
 .bg-blue {
   background-color: var(--blue);
 }
-.bg-blue:hover {
+.bg-blue_hvr {
+  background-color: var(--blue);
+}
+.bg-blue_hvr:hover {
   filter: saturate(0.8);
 }
 
@@ -458,7 +461,7 @@ button {
   transition-property: background-color;
 }
 .bg-gray_hvr:hover {
-  background-color: var(--gray);
+  background-color: var(--gray-focus);
 }
 
 .bg-dk {
