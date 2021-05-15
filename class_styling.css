@@ -5,13 +5,11 @@ variables
 */
 
 :root {
-  /* --color-bg: white; */
-  --color-bg: hsl(205, 75%, 97%);
-  --color-bg-light: hsl(0, 0%, 100%);
-  --color-bg-gray: hsl(0, 0%, 95%);
-  --color-bg-gray-focus: hsl(0, 0%, 85%);
-  --color-bg-accent: hsl(122, 98%, 40%);
-  --color-t-accent: hsl(219, 100%, 56%);
+  --white: hsl(0, 0%, 100%);
+  --gray: hsl(0, 0%, 95%);
+  --gray-focus: hsl(0, 0%, 85%);
+  --blue: hsl(219, 100%, 56%);
+  --green: hsl(122, 98%, 40%);
   --size-1: 8px;
   --size-2: 14px;
   --size-3: 30px;
@@ -23,8 +21,8 @@ variables
   --text-size-4: medium;
   --text-size-5: small;
   --color-border-lt: hsl(0, 0%, 85%);
-  --border-lt: solid 1px var(--color-border-lt);
-  --border-ac: solid 1px var(--color-bg-accent);
+  --border-gray: solid 1px var(--gray);
+  --border-blue: solid 1px var(--blue);
   --sidedeck-width: 220px;
   --sidedeck-width-elapsed: 80px;
   --nav-height: 65px;
@@ -337,23 +335,18 @@ button {
   font-weight: normal;
 }
 
-.t-lt-1 {
-  color: white;
-}
-.t-lt-2 {
-  color: rgb(230, 230, 230);
+.t-white {
+  color: var(--white);
 }
 
-.t-ac {
-  color: var(--color-t-accent);
+.t-blue {
+  color: var(--blue);
 }
 
-.t-dk-1 {
+.t-black {
   color: black;
 }
-.t-dk-2 {
-  color: rgb(51, 51, 51);
-}
+
 
 /*image*/
 .o-cn {
@@ -389,26 +382,27 @@ button {
 .br-0 {
   border: none;
 }
-.br-ac {
-  border: var(--border-ac);
+.br-blue {
+  border: var(--border-blue);
 }
-.br-lt {
-  border: var(--border-lt);
+
+.br-gray {
+  border: var(--border-gray);
 }
-.br-dk {
+.br-black {
   border: solid 1px #000;
 }
-.brt-lt {
-  border-top: var(--border-lt);
+.brt-gray {
+  border-top: var(--border-gray);
 }
-.brb-lt {
-  border-bottom: var(--border-lt);
+.brb-gray {
+  border-bottom: var(--border-gray);
 }
-.brl-lt {
-  border-left: var(--border-lt);
+.brl-gray {
+  border-left: var(--border-gray);
 }
-.brr-lt {
-  border-right: var(--border-lt);
+.brr-gray {
+  border-right: var(--border-gray);
 }
 
 /*shadow*/
@@ -422,18 +416,18 @@ button {
 .sdw-shine {
   box-shadow: inset 2px 1px 1px 0 hsla(0, 0%, 100%, 0.61);
 }
-.sdw-solid-lt {
-  box-shadow: 0px 2px var(--color-border-lt)
+.sdw-solid-gray {
+  box-shadow: 0px 2px var(--gray)
 }
 
 /*background*/
 .bg {
-  background-color: var(--color-bg);
+  background-color: var(--white);
 }
-.bg-ac {
-  background-color: var(--color-bg-accent);
+.bg-blue {
+  background-color: var(--blue);
 }
-.bg-ac:hover {
+.bg-blue:hover {
   filter: saturate(0.8);
 }
 
@@ -446,48 +440,19 @@ button {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.bg-ac-2 {
-  background-color: var(--color-t-accent);
+
+.bg-gray {
+  background-color: var(--gray);
 }
-.bg-ac-2_hvr {
-  background-color: var(--color-t-accent);
-}
-.bg-ac-2_hvr:hover {
-  filter: saturate(0.5);
-}
-.bg-lt {
-  background-color: var(--color-bg-light);
-}
-.bg-lt_hvr {
-  background-color: var(--color-bg-light);
+.bg-gray_hvr {
+  background-color: var(--gray);
   transition: var(--transition-fast);
   transition-property: background-color;
 }
-.bg-lt_hvr:hover {
-  background-color: var(--color-bg-gray);
+.bg-gray_hvr:hover {
+  background-color: var(--gray);
 }
-.bg-gr {
-  background-color: var(--color-bg-gray);
-}
-.bg-gr_hvr {
-  background-color: var(--color-bg-gray);
-  transition: var(--transition-fast);
-  transition-property: background-color;
-}
-.bg-gr_hvr:hover {
-  background-color: var(--color-bg-gray-focus);
-}
-.bg-gr-2 {
-  background-color: rgb(200, 200, 200);
-}
-.bg-gr-2_hvr {
-  background-color: rgb(200, 200, 200);
-  transition: var(--transition-fast);
-  transition-property: background-color;
-}
-.bg-gr-2_hvr:hover {
-  background-color: rgb(220, 220, 220);
-}
+
 .bg-dk {
   background-color: #000;
 }
