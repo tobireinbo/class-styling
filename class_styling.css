@@ -424,6 +424,14 @@ button {
 .bg {
   background-color: var(--white);
 }
+.bg_hvr {
+  background-color: var(--white);
+  transition: var(--transition-fast);
+  transition-property: background-color;
+}
+.bg_hvr:hover {
+  background-color: var(--gray); 
+}
 .bg-blue {
   background-color: var(--blue);
 }
