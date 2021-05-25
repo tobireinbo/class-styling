@@ -443,7 +443,15 @@ button {
 .bg-blue_hvr:hover {
   filter: saturate(0.8);
 }
-
+.bg-red {
+  background-color: var(--red); 
+}
+.bg-red_hvr {
+  background-color: var(--red); 
+}
+.bg-red_hvr:hover {
+ filter: saturate(0.8); 
+}
 .bg-adapt_hvr {
   background-color: rgba(0, 0, 0, 0.08);
   transition: var(--transition-fast);
