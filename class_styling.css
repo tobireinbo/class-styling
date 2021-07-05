@@ -309,6 +309,10 @@ button {
   display: flex;
   justify-content: center;
 }
+.flx-wrap {
+  display: flex;
+  flex-wrap: wrap;
+} 
 
 /*text*/
 .t-inherit {
