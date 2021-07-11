@@ -13,8 +13,8 @@ variables
   --lightergray-focus: hsl(0, 0%, 75%);
   --gray: hsl(0, 0%, 50%);
   --gray-focus: hsl(0, 0%, 60%);
-  --darker-gray: hsl(0, 0%, 22%);
-  --darker-gray-focus: hsl(0, 0%, 30%);
+  --darkergray: hsl(0, 0%, 22%);
+  --darkergray-focus: hsl(0, 0%, 30%);
   --black: hsl(0, 0%, 0%);
   --black-focus: hsl(0, 0%, 10%);
   --darkgray: hsl(0, 0%, 13%);
