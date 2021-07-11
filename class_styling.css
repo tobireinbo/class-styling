@@ -7,11 +7,29 @@ variables
 :root {
   --white: hsl(0, 0%, 100%);
   --white-focus: hsl(0, 0%, 92%);
+  --lightgray: hsl(0, 0%, 89%);
+  --lightgray-focus: hsl(0, 0%, 80%);
   --gray: hsl(0, 0%, 86%);
   --gray-focus: hsl(0, 0%, 75%);
+  --black: hsl(0, 0%, 0%);
+  --black-focus: hsl(0, 0%, 10%);
+  --darkgray: hsl(0, 0%, 13%);
+  --darkgray-focus: hsl(0, 0%, 20%);
   --blue: hsl(219, 100%, 56%);
   --red: hsl(0, 75%, 52%);
   --green: hsl(122, 98%, 40%);
+  --accent-1: var(--blue);
+  --area-colo-1r: var(--white);
+  --area-color-1-focus: var(--white-focus);
+  --area-color-2: var(--lightgray);
+  --area-color-2-focus: var(--lightgray-focus);
+  --contour-color-1: var(--gray);
+  --contour-color-1-focus: var(--gray-focus);
+  --text-color-1: var(--black);
+  --text-color-1-focus: var(--black-focus);
+  --text-color-2: var(--darkgray);
+  --text-color-2-focus: var(--darkgray-focus);
+  --text-color-in-accent-1: var(--white);
   --size-1: 8px;
   --size-2: 14px;
   --size-3: 30px;
@@ -22,9 +40,6 @@ variables
   --text-size-3: larger;
   --text-size-4: medium;
   --text-size-5: small;
-  --color-border-lt: hsl(0, 0%, 85%);
-  --border-gray: solid 1px var(--gray);
-  --border-blue: solid 1px var(--blue);
   --sidedeck-width: 220px;
   --sidedeck-width-elapsed: 80px;
   --nav-height: 65px;
@@ -148,6 +163,7 @@ h1 {
   font-family: "Inter";
   font-size: var(--text-size-1);
   font-weight: normal;
+  font-color: var(--text-color-1);
 }
 
 h2 {
@@ -155,6 +171,7 @@ h2 {
   font-family: "Inter";
   font-size: var(--text-size-2);
   font-weight: normal;
+  font-color: var(--text-color-1);
 }
 
 h3 {
@@ -162,6 +179,7 @@ h3 {
   font-family: "Inter";
   font-size: var(--text-size-3);
   font-weight: normal;
+  font-color: var(--text-color-1);
 }
 
 h4 {
@@ -169,6 +187,7 @@ h4 {
   font-family: "Inter";
   font-size: var(--text-size-4);
   font-weight: normal;
+  font-color: var(--text-color-2);
 }
 
 h5 {
@@ -176,6 +195,7 @@ h5 {
   font-family: "Inter";
   font-size: var(--text-size-5);
   font-weight: normal;
+  font-color: var(--text-color-2);
 }
 
 button {
@@ -341,17 +361,14 @@ button {
   font-weight: normal;
 }
 
-.t-white {
-  color: var(--white);
+.t-in-acc {
+  color: var(--text-color-in-accent-1);
 }
 
-.t-blue {
-  color: var(--blue);
+.t-acc {
+  color: var(--accent-1);
 }
 
-.t-black {
-  color: black;
-}
 
 
 /*image*/
@@ -388,27 +405,24 @@ button {
 .br-0 {
   border: none;
 }
-.br-blue {
-  border: var(--border-blue);
+.br-acc-1 {
+  border: solid 1px var(--accent-1);
 }
 
-.br-gray {
-  border: var(--border-gray);
+.br-1 {
+  border: solid 1px var(--contour-color-1);
 }
-.br-black {
-  border: solid 1px #000;
+.brt-1 {
+  border-top: solid 1px var(--contour-color-1);
 }
-.brt-gray {
-  border-top: var(--border-gray);
+.brb-1 {
+  border-bottom: solid 1px var(--contour-color-1);
 }
-.brb-gray {
-  border-bottom: var(--border-gray);
+.brl-1 {
+  border-left: solid 1px var(--contour-color-1);
 }
-.brl-gray {
-  border-left: var(--border-gray);
-}
-.brr-gray {
-  border-right: var(--border-gray);
+.brr-1 {
+  border-right: solid 1px var(--contour-color-1);
 }
 
 /*shadow*/
@@ -422,29 +436,29 @@ button {
 .sdw-shine {
   box-shadow: inset 2px 1px 1px 0 hsla(0, 0%, 100%, 0.61);
 }
-.sdw-solid-gray {
-  box-shadow: 0px 2px var(--gray)
+.sdw-solid-contour {
+  box-shadow: 0px 2px var(--contour-color-1)
 }
 
 /*background*/
-.bg {
-  background-color: var(--white);
+.bg-1 {
+  background-color: var(--area-color-1);
 }
-.bg_hvr {
-  background-color: var(--white);
+.bg-1_hvr {
+  background-color: var(--area-color-1);
   transition: var(--transition-fast);
   transition-property: background-color;
 }
-.bg_hvr:hover {
-  background-color: var(--white-focus); 
+.bg-1_hvr:hover {
+  background-color: var(--area-color-1-focus); 
 }
-.bg-blue {
-  background-color: var(--blue);
+.bg-acc-1 {
+  background-color: var(--accent-1);
 }
-.bg-blue_hvr {
-  background-color: var(--blue);
+.bg-acc-1_hvr {
+  background-color: var(--accent-1);
 }
-.bg-blue_hvr:hover {
+.bg-acc-1_hvr:hover {
   filter: saturate(0.8);
 }
 .bg-red {
@@ -466,21 +480,18 @@ button {
 }
 
 
-.bg-gray {
-  background-color: var(--gray);
+.bg-contour {
+  background-color: var(--contour-color-1);
 }
-.bg-gray_hvr {
-  background-color: var(--gray);
+.bg-contour_hvr {
+  background-color: var(--contour-color-1);
   transition: var(--transition-fast);
   transition-property: background-color;
 }
-.bg-gray_hvr:hover {
-  background-color: var(--gray-focus);
+.bg-contour_hvr:hover {
+  background-color: var(--contour-color-1-focus);
 }
 
-.bg-dk {
-  background-color: #000;
-}
 
 .bg-tran {
   background-color: transparent;
@@ -497,7 +508,7 @@ button {
 }
 
 .bg-input {
-  background-color: var(--white-focus);
+  background-color: var(--area-color-1-focus);
   border: solid 1px transparent;
   transition: var(--transition-fast);
   transition-property: background-color, border;
@@ -505,8 +516,8 @@ button {
 
 .bg-input:focus,
 .bg-input:focus-within {
-  background-color: var(--white);
-  border: solid 1px var(--blue);
+  background-color: var(--area-color-1);
+  border: solid 1px var(--accent-1);
 }
 
 /*overflow*/
