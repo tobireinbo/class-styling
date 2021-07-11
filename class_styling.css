@@ -472,6 +472,17 @@ button {
 .bg-1_hvr:hover {
   background-color: var(--area-color-1-focus); 
 }
+.bg-2 {
+  background-color: var(--area-color-2); 
+}
+.bg-2_hvr {
+  background-color: var(--area-color-2);
+  transition: var(--transition-fast);
+  transition-property: background-color;
+}
+.bg-2_hvr:hover {
+  background-color: var(--area-color-2-focus); 
+}
 .bg-acc-1 {
   background-color: var(--accent-1);
 }
