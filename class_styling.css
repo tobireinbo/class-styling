@@ -19,7 +19,7 @@ variables
   --red: hsl(0, 75%, 52%);
   --green: hsl(122, 98%, 40%);
   --accent-1: var(--blue);
-  --area-colo-1r: var(--white);
+  --area-color-1: var(--white);
   --area-color-1-focus: var(--white-focus);
   --area-color-2: var(--lightgray);
   --area-color-2-focus: var(--lightgray-focus);
