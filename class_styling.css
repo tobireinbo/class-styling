@@ -369,11 +369,11 @@ button {
   color: var(--text-color-2); 
 }
 .t-in-acc-1 {
-  color: var(--text-color-in-accent-1);
+  color: var(--text-color-in-accent-1) !important;
 }
 
 .t-acc-1 {
-  color: var(--accent-1);
+  color: var(--accent-1) !important;
 }
 
 
