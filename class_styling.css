@@ -163,7 +163,7 @@ h1 {
   font-family: "Inter";
   font-size: var(--text-size-1);
   font-weight: normal;
-  font-color: var(--text-color-1);
+  color: var(--text-color-1);
 }
 
 h2 {
@@ -171,7 +171,7 @@ h2 {
   font-family: "Inter";
   font-size: var(--text-size-2);
   font-weight: normal;
-  font-color: var(--text-color-1);
+  color: var(--text-color-1);
 }
 
 h3 {
@@ -179,7 +179,7 @@ h3 {
   font-family: "Inter";
   font-size: var(--text-size-3);
   font-weight: normal;
-  font-color: var(--text-color-1);
+  color: var(--text-color-1);
 }
 
 h4 {
@@ -187,7 +187,7 @@ h4 {
   font-family: "Inter";
   font-size: var(--text-size-4);
   font-weight: normal;
-  font-color: var(--text-color-2);
+  color: var(--text-color-2);
 }
 
 h5 {
@@ -195,7 +195,7 @@ h5 {
   font-family: "Inter";
   font-size: var(--text-size-5);
   font-weight: normal;
-  font-color: var(--text-color-2);
+  color: var(--text-color-2);
 }
 
 button {
