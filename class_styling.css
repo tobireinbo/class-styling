@@ -9,8 +9,12 @@ variables
   --white-focus: hsl(0, 0%, 92%);
   --lightgray: hsl(0, 0%, 89%);
   --lightgray-focus: hsl(0, 0%, 80%);
-  --gray: hsl(0, 0%, 86%);
-  --gray-focus: hsl(0, 0%, 75%);
+  --lightergray: hsl(0, 0%, 86%);
+  --lightergray-focus: hsl(0, 0%, 75%);
+  --gray: hsl(0, 0%, 50%);
+  --gray-focus: hsl(0, 0%, 60%);
+  --darker-gray: hsl(0, 0%, 22%);
+  --darker-gray-focus: hsl(0, 0%, 30%);
   --black: hsl(0, 0%, 0%);
   --black-focus: hsl(0, 0%, 10%);
   --darkgray: hsl(0, 0%, 13%);
@@ -23,8 +27,8 @@ variables
   --area-color-1-focus: var(--white-focus);
   --area-color-2: var(--lightgray);
   --area-color-2-focus: var(--lightgray-focus);
-  --contour-color-1: var(--gray);
-  --contour-color-1-focus: var(--gray-focus);
+  --contour-color-1: var(--lightergray);
+  --contour-color-1-focus: var(--lightergray-focus);
   --text-color-1: var(--black);
   --text-color-1-focus: var(--black-focus);
   --text-color-2: var(--darkgray);
