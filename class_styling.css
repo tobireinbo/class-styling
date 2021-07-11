@@ -436,7 +436,7 @@ button {
 .sdw-shine {
   box-shadow: inset 2px 1px 1px 0 hsla(0, 0%, 100%, 0.61);
 }
-.sdw-solid-contour {
+.sdw-solid-contour-1 {
   box-shadow: 0px 2px var(--contour-color-1)
 }
 
