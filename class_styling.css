@@ -344,26 +344,24 @@ button {
   font-family: "Inter";
   font-size: xxx-large;
   font-weight: normal;
+  color: var(--text-color-1); 
 }
 .t-2 {
   font-family: "Inter";
   font-size: xx-large;
   font-weight: normal;
+  color: var(--text-color-1); 
 }
 .t-3 {
   font-family: "Inter";
   font-size: large;
   font-weight: normal;
+  color: var(--text-color-1); 
 }
 .t-4 {
   font-family: "Inter";
   font-size: small;
   font-weight: normal;
-}
-.t-c-1 {
-  color: var(--text-color-1); 
-}
-.t-c-2 {
   color: var(--text-color-2); 
 }
 .t-in-acc-1 {
