@@ -360,7 +360,12 @@ button {
   font-size: small;
   font-weight: normal;
 }
-
+.t-c-1 {
+  color: var(--text-color-1); 
+}
+.t-c-2 {
+  color: var(--text-color-2); 
+}
 .t-in-acc {
   color: var(--text-color-in-accent-1);
 }
