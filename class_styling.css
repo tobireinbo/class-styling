@@ -519,6 +519,7 @@ button {
   border: solid 1px transparent;
   transition: var(--transition-fast);
   transition-property: background-color, border;
+  color: var(--text-color-1);
 }
 
 .bg-input:focus,
