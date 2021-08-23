@@ -27,6 +27,8 @@ variables
   --area-color-1-focus: var(--white-focus);
   --area-color-2: var(--lightgray);
   --area-color-2-focus: var(--lightgray-focus);
+  --area-color-3: var(--lightergray);
+  --area-color-3-focus: var(--lightergray-focus);
   --contour-color-1: var(--lightergray);
   --contour-color-1-focus: var(--lightergray-focus);
   --text-color-1: var(--black);
@@ -474,6 +476,7 @@ button {
 .bg-1_hvr:hover {
   background-color: var(--area-color-1-focus); 
 }
+
 .bg-2 {
   background-color: var(--area-color-2); 
 }
@@ -485,6 +488,19 @@ button {
 .bg-2_hvr:hover {
   background-color: var(--area-color-2-focus); 
 }
+
+.bg-3 {
+  background-color: var(--area-color-3);
+}
+.bg-3_hvr {
+  background-color: var(--area-color-3);
+  transition: var(--transition-fast);
+  transition-property: background-color;
+}
+.bg-3_hvr:hover {
+  background-color: var(--area-color-3-focus); 
+}
+
 .bg-acc-1 {
   background-color: var(--accent-1);
 }
@@ -494,6 +510,7 @@ button {
 .bg-acc-1_hvr:hover {
   filter: saturate(0.8);
 }
+
 .bg-red {
   background-color: var(--red); 
 }
@@ -503,6 +520,7 @@ button {
 .bg-red_hvr:hover {
  filter: saturate(0.8); 
 }
+
 .bg-adapt_hvr {
   background-color: rgba(0, 0, 0, 0.08);
   transition: var(--transition-fast);
