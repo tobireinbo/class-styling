@@ -565,6 +565,9 @@ button {
   transition-property: background-color, border;
   color: var(--text-color-1);
 }
+.bg-input::placeholder{
+  color: var(--text-color-1);
+}
 
 .bg-input:focus,
 .bg-input:focus-within {
