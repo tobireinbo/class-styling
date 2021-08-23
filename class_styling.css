@@ -137,6 +137,7 @@ table,
 tr,
 form,
 fieldset,
+label,
 input,
 a {
   box-sizing: border-box;
