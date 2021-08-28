@@ -444,6 +444,10 @@ button {
 .br-1 {
   border: solid 1px var(--contour-color-1);
 }
+.onFocus_br-1 {}
+.onFocus_br-1:focus {
+  border: solid 1px var(--contour-color-1);
+} 
 .brt-1 {
   border-top: solid 1px var(--contour-color-1);
 }
@@ -460,6 +464,10 @@ button {
 .br-2 {
   border: solid 1px var(--contour-color-2);
 }
+.onFocus_br-2 {}
+.onFocus_br-2:focus {
+  border: solid 1px var(--contour-color-2);
+} 
 .brt-2 {
   border-top: solid 1px var(--contour-color-2);
 }
@@ -476,6 +484,10 @@ button {
 .br-3 {
   border: solid 1px var(--contour-color-3);
 }
+.onFocus_br-3 {}
+.onFocus_br-3:focus {
+  border: solid 1px var(--contour-color-3);
+} 
 .brt-3 {
   border-top: solid 1px var(--contour-color-3);
 }
@@ -492,6 +504,10 @@ button {
 .br-4 {
   border: solid 1px var(--contour-color-4);
 }
+.onFocus_br-4 {}
+.onFocus_br-4:focus {
+  border: solid 1px var(--contour-color-4);
+} 
 .brt-4 {
   border-top: solid 1px var(--contour-color-4);
 }
