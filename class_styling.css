@@ -440,6 +440,10 @@ button {
 .br-acc-1 {
   border: solid 1px var(--accent-1);
 }
+.onFocus_br-acc-1{}
+.onFocus_br-acc-1:focus{
+  border: solid 1px var(--accent-1);
+}
 
 .br-1 {
   border: solid 1px var(--contour-color-1);
