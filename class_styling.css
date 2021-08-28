@@ -533,6 +533,9 @@ button {
 .bg-1_hvr:hover {
   background-color: var(--area-color-1-focus); 
 }
+.onFocus_bg-1:focus {
+  background-color: var(--area-color-1);
+}
 
 .bg-2 {
   background-color: var(--area-color-2); 
@@ -544,6 +547,9 @@ button {
 }
 .bg-2_hvr:hover {
   background-color: var(--area-color-2-focus); 
+}
+.onFocus_bg-2:focus {
+  background-color: var(--area-color-2);
 }
 
 .bg-3 {
@@ -557,6 +563,9 @@ button {
 .bg-3_hvr:hover {
   background-color: var(--area-color-3-focus); 
 }
+.onFocus_bg-3:focus {
+  background-color: var(--area-color-3);
+}
 
 .bg-4 {
   background-color: var(--area-color-4);
@@ -568,6 +577,9 @@ button {
 }
 .bg-4_hvr:hover {
   background-color: var(--area-color-4-focus); 
+}
+.onFocus_bg-4:focus {
+  background-color: var(--area-color-4);
 }
 
 .bg-acc-1 {
