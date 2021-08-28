@@ -29,8 +29,16 @@ variables
   --area-color-2-focus: var(--lightgray-focus);
   --area-color-3: var(--lightergray);
   --area-color-3-focus: var(--lightergray-focus);
+  --area-color-4: var(--gray);
+  --area-color-4-focus: var(--gray-focus);
   --contour-color-1: var(--lightergray);
   --contour-color-1-focus: var(--lightergray-focus);
+  --contour-color-2: var(--gray);
+  --contour-color-2-focus: var(--gray-focus);
+  --contour-color-3: var(--darkergray);
+  --contour-color-3-focus: var(--darkergray-focus);
+  --contour-color-4: var(--darkergray);
+  --contour-color-4-focus: var(--darkergray-focus);
   --text-color-1: var(--black);
   --text-color-1-focus: var(--black-focus);
   --text-color-2: var(--darkgray);
@@ -449,6 +457,55 @@ button {
   border-right: solid 1px var(--contour-color-1);
 }
 
+.br-2 {
+  border: solid 1px var(--contour-color-2);
+}
+.brt-2 {
+  border-top: solid 1px var(--contour-color-2);
+}
+.brb-2 {
+  border-bottom: solid 1px var(--contour-color-2);
+}
+.brl-2 {
+  border-left: solid 1px var(--contour-color-2);
+}
+.brr-2 {
+  border-right: solid 1px var(--contour-color-2);
+}
+
+.br-3 {
+  border: solid 1px var(--contour-color-3);
+}
+.brt-3 {
+  border-top: solid 1px var(--contour-color-3);
+}
+.brb-3 {
+  border-bottom: solid 1px var(--contour-color-3);
+}
+.brl-3 {
+  border-left: solid 1px var(--contour-color-3);
+}
+.brr-3 {
+  border-right: solid 1px var(--contour-color-3);
+}
+
+.br-4 {
+  border: solid 1px var(--contour-color-4);
+}
+.brt-4 {
+  border-top: solid 1px var(--contour-color-4);
+}
+.brb-4 {
+  border-bottom: solid 1px var(--contour-color-4);
+}
+.brl-4 {
+  border-left: solid 1px var(--contour-color-4);
+}
+.brr-4 {
+  border-right: solid 1px var(--contour-color-4);
+}
+
+
 /*shadow*/
 .sdw-1 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05), 0 20px 48px rgba(0, 0, 0, 0.05),
@@ -499,6 +556,18 @@ button {
 }
 .bg-3_hvr:hover {
   background-color: var(--area-color-3-focus); 
+}
+
+.bg-4 {
+  background-color: var(--area-color-4);
+}
+.bg-4_hvr {
+  background-color: var(--area-color-4);
+  transition: var(--transition-fast);
+  transition-property: background-color;
+}
+.bg-4_hvr:hover {
+  background-color: var(--area-color-4-focus); 
 }
 
 .bg-acc-1 {
