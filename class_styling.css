@@ -282,6 +282,10 @@ button {
   min-height: 100vh;
 }
 
+.ratio-1_1 {
+ aspect-ratio: 1; 
+}
+
 /*position & display*/
 .fxd {
   position: fixed;
