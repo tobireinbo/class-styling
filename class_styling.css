@@ -397,6 +397,12 @@ button {
   font-weight: normal;
   color: var(--text-color-2); 
 }
+.t-5 {
+  font-family: "Inter";
+  font-size: var(--text-size-5);
+  font-weight: normal;
+  color: var(--text-color-2); 
+}
 .t-in-acc-1 {
   color: var(--text-color-in-accent-1) !important;
 }
